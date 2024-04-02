@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.all {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border for visualization */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    flex-direction: column;
+    height: 100vh;
+}
+
+img{
+    border-radius: 50%;
+}
+h3{
+    color: greenyellow;
+}
+button {    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid darkslategray; /* Optional: Add a border for visualization */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    background-color: rgb(23, 37, 37);
+    height: 70px;
+}
